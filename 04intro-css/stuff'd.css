@@ -1,0 +1,135 @@
+body {
+   font-family: "DM Serif Text", serif;
+font-size: 16px;
+font-weight: 300;
+margin: 0;
+}
+
+/*  header stuff here  */
+
+header span {
+  color: #445E67;
+  font-size: 2rem;
+  font-weight: 700;
+}
+header {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 1rem 10px;
+}
+
+/* nav formatting*/
+
+nav {
+  background-color: #9bbfb2;
+}
+nav ul{
+  
+  height: 48px;
+  align-items: center;
+margin: 0;
+padding: 0 10px;
+list-style-type:none;
+display: flex;
+}
+
+nav a {
+  font-size: 1.1rem;
+  height: 48px;
+  line-height: 48px;
+  display: block;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #445E67;
+  font-weight: 700;
+}
+
+nav li.active a {
+background-color: #ffffff;
+color: #A8BEBB;
+}
+
+nav a:hover {
+
+  color:white;
+
+}
+
+/*main section*/
+
+main{
+  padding: 1rem 2vw;
+}
+main h1 {
+  color: #9bbfb2;
+  }
+main h2 {
+  color: #445E67;
+  margin-bottom: .2rem;
+}
+main p {
+color:#9bbfb2;
+margin: 0;
+}
+
+main ol {
+  padding:.5rem 30px;
+  background-color: #efefef;
+  list-style-type:lower-roman;
+}
+
+main dl dt {
+color: #9bbfb2;
+font-weight: 700;
+margin-top: 1rem;
+}
+
+main dl dd {
+color: #445E67;
+font-size: .9rem;
+}
+
+main ul {
+  list-style-type:square;
+}
+
+main address {
+  font-weight:400;
+  background-color:#9bbfb2;
+  padding: .5rem;
+  border: 3px solid #445E67;
+  border-radius: .9rem;
+  width: 200px;
+
+}
+
+/*  footer section  */
+
+footer {
+  background-color: #eaeaea;
+  text-align: center;
+  color:#9bbfb2;
+  
+}
+
+
+
+
+
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.updock-regular {
+  font-family: "Updock", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
